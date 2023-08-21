@@ -62,8 +62,7 @@ PUT:
 三种方式处理：
 1. MySQL 查询时直接查出树形结构（使用自定义函数 或 其他方式）
 2. 程序中使用递归构建树形结构数据
-3. 通过一个 map，遍历一次就可以完成树的构建 :star:
-> map 的方法似乎只能构建出二级菜单？？？ TODO: 待查询资料
+3. 通过一个 map，遍历一次就可以完成树的构建 
 
 ### 日志记录
 
@@ -72,7 +71,3 @@ PUT:
 ## 项目特色
 
 使用 RESTful API
-
-# Nginx 部署
-
-Nginx 配置 Https 参考: [Nginx 服务器 SSL 证书安装部署](https://cloud.tencent.com/document/product/400/35244)
